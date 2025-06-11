@@ -1,0 +1,11 @@
+{
+    "name": "lordofscripts/php-neat-test",
+    "description": "A private package for making PHP test runs neater.",
+    "autoload": {
+        "psr-4": {
+            "lordofscripts\\php-neat-test\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
