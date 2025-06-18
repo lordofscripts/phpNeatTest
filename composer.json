@@ -1,11 +1,29 @@
 {
     "name": "lordofscripts/phpNeatTest",
     "description": "A private package for making PHP test runs neater.",
+    "version": "1.0.2",
+    "type": "library",
+    "keywords": "php, test",
     "autoload": {
         "psr-4": {
             "lordofscripts\\phpNeatTest\\": "src/"
         }
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    "authors": [
+        {
+            "name": "Lord of Scripts",
+            "email": "8118933+lordofscripts@users.noreply.github.com",
+            "homepage": "https://allmylinks.com/lordofscripts",
+            "role": "Developer"
+        }
+    ],
+    "funding": [
+        {
+            "type": "buymeacoffee",
+            "url": "https://buymeacoffee.com/lostinwriting"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {}
 }
